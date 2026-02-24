@@ -92,12 +92,7 @@ export default function Home() {
             <p className="text-gray-600 text-xl">Image Placeholder</p>
           </div>
         </section>
-        {/* Badge Image - Centered under Community First */}
-        <section className="w-full py-8 bg-white">
-          <div className="max-w-4xl mx-auto px-6 flex justify-center">
-            <img src="/ltvfdemblem2.png" alt="Lafayette Township Fire Department Emblem" className="max-w-xs w-full h-auto rounded shadow-md" />
-          </div>
-        </section>
+        
       </main>
 
       {/* Footer */}
