@@ -92,7 +92,7 @@ export default function Home() {
             <p className="text-gray-600 text-xl">Image Placeholder</p>
           </div>
         </section>
-        
+
       </main>
 
       {/* Footer */}
