@@ -14,14 +14,14 @@ export default function Home() {
 
       {/* Sticky Header */}
       <header className="sticky top-0 z-50 bg-red-600 text-white p-4 shadow-lg">
-        <div className="max-w-4xl mx-auto grid grid-cols-3 items-center gap-4">
-          <div>
+        <div className="relative">
+          <div className="absolute left-4 top-1/2 transform -translate-y-1/2">
             <h2 className="text-2xl font-bold">LTVFD</h2>
           </div>
-          <div className="text-center">
+          <div className="max-w-4xl mx-auto text-center">
             <p className="text-sm font-semibold italic">Courage, Service, Community</p>
           </div>
-          <div className="text-right">
+          <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
             <Link href="/login" className="bg-white text-red-600 px-4 py-2 rounded hover:bg-gray-100">Employee Login</Link>
           </div>
         </div>
