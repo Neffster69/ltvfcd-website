@@ -29,21 +29,24 @@ export default function Home() {
 
       {/* Sticky Navigation Bar */}
       <nav className="sticky top-16 z-40 w-full bg-white shadow-lg">
-        <div className="max-w-4xl mx-auto grid grid-cols-3 items-center gap-4 px-6 py-3">
-          <div className="text-left">
+        <div className="relative">
+          <div className="absolute left-6 top-1/2 transform -translate-y-1/2">
             <p className="text-sm text-gray-600">3235 N 100 W, Anderson, IN 46011</p>
           </div>
-          <div className="flex justify-center items-center gap-6">
-            <Link href="/events" className="text-lg font-semibold text-red-600 hover:text-red-800 transition">Events</Link>
-            <div className="text-gray-300">|</div>
-            <Link href="/contact" className="text-lg font-semibold text-red-600 hover:text-red-800 transition">Contact</Link>
-            <div className="text-gray-300">|</div>
-            <Link href="/about" className="text-lg font-semibold text-red-600 hover:text-red-800 transition">About</Link>
-            <div className="text-gray-300">|</div>
-            <Link href="/staffing" className="text-lg font-semibold text-red-600 hover:text-red-800 transition">Staffing</Link>
-          </div>
-          <div className="text-right">
-            {/* Placeholder for future content */}
+          <div className="max-w-4xl mx-auto grid grid-cols-3 items-center gap-4 px-6 py-3">
+            <div></div>
+            <div className="flex justify-center items-center gap-6">
+              <Link href="/events" className="text-lg font-semibold text-red-600 hover:text-red-800 transition">Events</Link>
+              <div className="text-gray-300">|</div>
+              <Link href="/contact" className="text-lg font-semibold text-red-600 hover:text-red-800 transition">Contact</Link>
+              <div className="text-gray-300">|</div>
+              <Link href="/about" className="text-lg font-semibold text-red-600 hover:text-red-800 transition">About</Link>
+              <div className="text-gray-300">|</div>
+              <Link href="/staffing" className="text-lg font-semibold text-red-600 hover:text-red-800 transition">Staffing</Link>
+            </div>
+            <div className="text-right">
+              {/* Placeholder for future content */}
+            </div>
           </div>
         </div>
       </nav>
